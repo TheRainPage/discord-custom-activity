@@ -6,16 +6,16 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 
 base_activity = {
-    'details': 'Custom details',
-    'state' : 'Custom state',
+    'details': '',
+    'state' : '',
     'assets': {
-        'large_image': 'image_name',
-        'large_text': 'Image text',
-        'small_image': 'small_image_name',
-        'small_text': 'Small image text'
+        'large_image': '',
+        'large_text': '',
+        'small_image': '',
+        'small_text': ''
     },
     'party': {
-        'size': [1, 5]
+        'size': [5, 5]
     }
 }
 
